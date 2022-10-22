@@ -1,0 +1,29 @@
+﻿body {
+    padding:40px;
+    background-color:aqua;
+}
+
+.photo{
+    border-radius: 10px;
+    width: 180px;
+    height: 120px;
+}
+.data{
+    height: 180px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (min-width:800px) {
+    .photo{
+        border-radius: 10px;
+        width: 400px;
+        height: 250px;
+    }
+    .data{
+        height: 300px;
+    }
+}
